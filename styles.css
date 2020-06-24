@@ -1,6 +1,6 @@
 html, body{
     margin: 0;
-    height: 100%;
+    height: 100vh;
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
@@ -15,25 +15,65 @@ html, body{
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    height: 100%;
+    background-color: antiquewhite;
+  
+
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    background-color: azure;
+    height: 20%;
+    width: 100%;
+    margin-bottom: 9px;
+    border-radius: 8px;
+  
+  
 }
 
-.main{
+.main{ 
+    background-color: lavender;
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+    
 
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+
+    text-decoration-style: none;
+}
+
+.flexer {
+    display: flex;
+   height: 100vh;
 }
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
+a:hover {
+   background-color: white; 
+}
+p {
+    text-align: center;
+}
 
+
+
+.container {
+    display:inline;
+   height: 100%;
+ 
+   
+
+
+}
 
 
 h1{
